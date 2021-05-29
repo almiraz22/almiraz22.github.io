@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* utilities */
+section {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+.title {
+  font-family: "Rock Salt";
+  font-size: 3.5rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+span {
+  font-weight: bold;
+}
+p {
+  text-align: justify;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: black !important;
+}
+.border {
+  background-color: cornflowerblue;
+}
+.margins {
+  padding: 2rem 2rem;
+}
+
+/* desktop */
+@media (min-width: 992px) {
+  /* navbar */
+  .nav-link {
+    margin-left: 2rem;
+  }
+
+  /* jumbotron */
+  .jumbotron {
+    padding-top: 6rem;
+  }
+}
+
+/* all responsive */
+.navbar {
+  background-color: aquamarine;
+}
+.navbar-brand {
+  font-family: "Anton";
+}
+/* navbar */
+.nav-link {
+  font-size: 1.5rem;
+  color: black !important;
+}
+
+/* jumbotron */
+.jumbotron {
+  min-height: 600px;
+  background-color: aquamarine;
+}
+.display-4 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* about */
+#about ul {
+  list-style-type: none;
+}
+#about ul li {
+  margin-left: -30px;
+}
+
+.medsos ul li {
+  display: inline;
+  padding-left: 3rem;
+}
+
+/* medsos */
+.fa-facebook {
+  color: #4267b2;
+}
+.fa-twitter {
+  color: #00acee;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+.fa-github {
+  color: #333;
+}
+
+/* portfolio */
+#portfolio {
+  background-color: aquamarine;
+}
+
+/* footer */
+#footer {
+  background-color: aquamarine;
+  min-height: 50px;
+}
