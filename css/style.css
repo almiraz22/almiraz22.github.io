@@ -40,6 +40,28 @@ p {
   color: cornflowerblue;
 }
 
+/* quote */
+blockquote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 50px;
+  line-height: 1.5em;
+  position: relative;
+}
+blockquote::before,
+blockquote::after {
+  content: open-quote;
+  font-size: 60px;
+  color: cornflowerblue;
+  line-height: 0;
+  position: relative;
+  top: 20px;
+}
+blockquote::after {
+  content: close-quote;
+}
+
 /* desktop */
 @media (min-width: 992px) {
   /* navbar */
