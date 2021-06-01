@@ -41,6 +41,10 @@ p {
     margin-left: 2rem;
   }
 
+  .nav-link:hover {
+    background-color: cornflowerblue;
+  }
+
   /* jumbotron */
   .jumbotron {
     padding-top: 6rem;
