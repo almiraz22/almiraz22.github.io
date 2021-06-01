@@ -34,6 +34,12 @@ p {
   padding: 2rem 2rem;
 }
 
+.title::before,
+.title::after {
+  content: " - ";
+  color: cornflowerblue;
+}
+
 /* desktop */
 @media (min-width: 992px) {
   /* navbar */
